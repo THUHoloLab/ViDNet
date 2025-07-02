@@ -1,5 +1,5 @@
 <div align="center">
-<h1>ViDNet: A Video Denoising Network for Video Inverse Problems</h1>
+<h1>ViDNet: A Denoising Network for Video Inverse Problems</h1>
 
 **[Yunhui Gao](https://github.com/Yunhui-Gao)** (gyh21@mails.tsinghua.edu.cn) and **[Liangcai Cao](https://scholar.google.com/citations?user=FYYb_-wAAAAJ&hl=en)** (clc@tsinghua.edu.cn)
 
@@ -12,7 +12,7 @@
 
 **ViDNet** is a video denoising network that has been specifically designed for plug-and-play (PnP) video restoration tasks. Key features of ViDNet include
 - :rocket: **Non-blind denoising capability**, which enables the handling of varying degrees of additive white Gaussian noise (AWGN).
-- :rocket:  **Bias-free modules**, which allows for enhanced generalizability to unseen noise levels and stable convergence for PnP iterations.
+- :rocket:  **Bias-free modules**, which allow for enhanced generalizability to unseen noise levels and stable convergence for PnP iterations.
 - :rocket: **Deeper architecture**, which captures long-term spatiotemporal features and offers improved performance in preserving textures and handling rapid motions.
 
 
