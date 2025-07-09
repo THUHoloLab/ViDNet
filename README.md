@@ -1,11 +1,11 @@
 <div align="center">
 <h1>ViDNet: A Denoising Network for Video Inverse Problems</h1>
 
-**[Yunhui Gao](https://github.com/Yunhui-Gao)** (gyh21@mails.tsinghua.edu.cn) and **[Liangcai Cao](https://scholar.google.com/citations?user=FYYb_-wAAAAJ&hl=en)** (clc@tsinghua.edu.cn)
+**[Yunhui Gao](https://github.com/Yunhui-Gao)** and **[Liangcai Cao](https://scholar.google.com/citations?user=FYYb_-wAAAAJ&hl=en)**
 
 :school: ***[HoloLab](http://www.holoddd.com/)**, Tsinghua University*
 
-:scroll: [**Publication Page**](xxxxxx) **|** :key: [**Pretrained Models**](#model-zoo) **|**  :dart: [**Selective Results**](#results)
+:scroll: **Publication Page** **|** :key: [**Pretrained Models**](#model-zoo) **|**  :dart: [**Selective Results**](#results)
 
 </div>
 
@@ -20,6 +20,11 @@
 <img src="imgs/fig1.png", width='800'>
 </p>
 
+## News
+
+- **2025.07.09** :fire: The ViDNet-based PnP algorithm is released. Click [**here**](https://github.com/THUHoloLab/STRIVER-deep) for details.
+
+- **2025.07.09** :fire: Pretrained models are released.
 
 ## Requirements
 
@@ -40,11 +45,45 @@ The released pretrained models have been trained on a dataset consisting of 70,4
 
 | Network             | Pretrained model                                          |
 | :----:              | :----:                                                    |
-| FastDVDnet (w/ BN)  | to be released |
-| FastDVDnet (w/o BN) | to be released |
-| ViDNet              | to be released |
+| FastDVDnet (w/ BN)  | download |
+| FastDVDnet (w/o BN) | [download](https://github.com/THUHoloLab/ViDNet/releases) |
+| ViDNet              | [download](https://github.com/THUHoloLab/ViDNet/releases) |
 
 
+## Quick Testing
+
+*To be released.*
+
+<!--
+##### 1. Prepare the data
+
+Prepare the test set according to instructions described [here](https://github.com/THUHoloLab/ViDNet/blob/master/dataset/README.md).
+
+##### 2. Edit configuration
+
+Options for testing are stored in [`config_vidnet.json`](https://github.com/THUHoloLab/ViDNet/blob/master/options) and can be modified.
+
+##### 3. Test models
+
+Run [`test.py`](https://github.com/THUHoloLab/ViDNet/blob/master/test.py) with default parameters. The denoised results are stored in `./results/output/`.
+-->
+
+## Training
+
+*To be released.*
+<!--
+##### 1. Prepare the data
+
+Prepare the training dataset according to instructions described [here](https://github.com/THUHoloLab/ViDNet/blob/master/dataset/README.md).
+
+##### 2. Edit configuration
+
+Options for training are stored in [`config_vidnet.json`](https://github.com/THUHoloLab/ViDNet/blob/master/options) and can be modified.
+
+##### 3. Start training
+
+Run [`train.py`](https://github.com/THUHoloLab/ViDNet/blob/master/train.py) with default parameters.
+-->
 
 ## Results
 
@@ -73,3 +112,19 @@ The following table summarizes AWGN denoising PSNR (dB) on grayscale DAVIS 2017 
 | 90                    | 27.47              | 28.07               | **29.04 (+0.97)**  |
 | 100                   | 26.71              | 27.67               | **28.63 (+0.96)**  |
 
+<!-- 
+## Citation
+
+```BibTex
+@article{gao2025model,
+  title={Model-based deep learning enables time-resolved computational microscopy},
+  author={Gao, Yunhui and Cao, Liangcai},
+  journal={xxxx},
+  volume={xxxx},
+  number={xxxx},
+  pages={xxxx},
+  year={2025},
+  publisher={xxxx}
+}
+```
+-->
